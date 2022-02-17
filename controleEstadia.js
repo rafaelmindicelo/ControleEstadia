@@ -1,5 +1,5 @@
 const dateCheckIn = "28/05/2021 10:00:00";
-const dateCheckOut = "27/04/2022 09:59:30";
+const dateCheckOut = "20/01/2022 10:01:30";
 
 function dateInMs(handleDate){
   const [date, time] = handleDate.split(" ");
@@ -40,3 +40,4 @@ console.log(`
 
              Obrigado e volte sempre!`);
 
+module.exports = dateInMs;
